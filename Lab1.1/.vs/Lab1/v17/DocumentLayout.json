@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u041D\u041B\u0422\u0423\\2 \u043A\u0443\u0440\u0441\\OOAP\\Lab1\\",
+  "WorkspaceRootPath": "D:\\\u041D\u041B\u0422\u0423\\2 \u043A\u0443\u0440\u0441\\OOAP\\Lab1.1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C97CFE91-47FF-41B7-A9E3-09C73EFC4374}|Lab1\\Lab1.vcxproj|D:\\\u041D\u041B\u0422\u0423\\2 \u043A\u0443\u0440\u0441\\OOAP\\Lab1\\Lab1\\Lab1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C97CFE91-47FF-41B7-A9E3-09C73EFC4374}|Lab1\\Lab1.vcxproj|D:\\\u041D\u041B\u0422\u0423\\2 \u043A\u0443\u0440\u0441\\OOAP\\Lab1.1\\Lab1\\Lab1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C97CFE91-47FF-41B7-A9E3-09C73EFC4374}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\Lab1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Lab1.cpp",
-              "DocumentMoniker": "D:\\\u041D\u041B\u0422\u0423\\2 \u043A\u0443\u0440\u0441\\OOAP\\Lab1\\Lab1\\Lab1.cpp",
+              "DocumentMoniker": "D:\\\u041D\u041B\u0422\u0423\\2 \u043A\u0443\u0440\u0441\\OOAP\\Lab1.1\\Lab1\\Lab1.cpp",
               "RelativeDocumentMoniker": "Lab1\\Lab1.cpp",
-              "ToolTip": "D:\\\u041D\u041B\u0422\u0423\\2 \u043A\u0443\u0440\u0441\\OOAP\\Lab1\\Lab1\\Lab1.cpp",
+              "ToolTip": "D:\\\u041D\u041B\u0422\u0423\\2 \u043A\u0443\u0440\u0441\\OOAP\\Lab1.1\\Lab1\\Lab1.cpp",
               "RelativeToolTip": "Lab1\\Lab1.cpp",
-              "ViewState": "AQIAAIAAAAAAAAAAAADwv6YAAAAJAAAA",
+              "ViewState": "AQIAALQAAAAAAAAAAAAAAEIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-13T07:30:09.993Z",
               "EditorCaption": ""

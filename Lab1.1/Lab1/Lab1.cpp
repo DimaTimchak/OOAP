@@ -26,14 +26,14 @@ class Address {
     string street;
     string building;
 public:
-    Address(string city, string street, string building)
+    Address(string& city, string& street, string& building)
         : city(city), street(street), building(building) {}
 
     string getFullAddress() const {
         return city + ", " + street + ", " + building;
     }
 
-    void changeAddress(string newCity, string newStreet, string newBuilding) {
+    void changeAddress(const string& newCity, const string& newStreet, const string& newBuilding) {
         city = newCity;
         street = newStreet;
         building = newBuilding;
