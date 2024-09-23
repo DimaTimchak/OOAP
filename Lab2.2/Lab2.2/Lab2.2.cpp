@@ -258,6 +258,11 @@ public:
     }
 };
 
+void clearInputStream() {
+    std::cin.clear();
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+}
+
 int main() {
     CarDirector director;
     CarBuilder* baseBuilder = new BaseCarBuilder();
@@ -265,9 +270,23 @@ int main() {
     CarBuilder* luxuryBuilder = new LuxuryCarBuilder();
     CarBuilder* premiumBuilder = new PremiumCarBuilder();
 
-    std::cout << "Select configuration: (1) Base, (2) Comfort, (3) Luxury, (4) Premium\n";
     int choice;
-    std::cin >> choice;
+    while (true) {
+        std::cout << "Select configuration: (1) Base, (2) Comfort, (3) Luxury, (4) Premium\n";
+        std::cin >> choice;
+
+        if (std::cin.fail()) {
+            std::cout << "Invalid input! Please enter a number.\n";
+            clearInputStream();
+            continue;
+        }
+
+        if (choice == 1 || choice == 2) {
+            break;
+        }
+
+        std::cout << "Invalid choice! Please select 1 or 2.\n";
+    }
 
     switch (choice) {
     case 1:

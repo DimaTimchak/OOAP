@@ -121,6 +121,11 @@ public:
     }
 };
 
+void clearInputStream() {
+    std::cin.clear();
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+}
+
 int main() {
     unique_ptr<IAddressBook> addressBook = make_unique<AddressBook>();
 
@@ -135,7 +140,13 @@ int main() {
         cout << "5. Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
-
+       
+        if (std::cin.fail()) {
+            std::cout << "Invalid input! Please enter a number.\n";
+            clearInputStream();
+            continue;
+        }
+          
         switch (choice) {
         case 1: {
             string name, city, street, building;

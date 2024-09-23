@@ -1,14 +1,14 @@
 ﻿  Lab1.2.cpp
-D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(20,58): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
-D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(20,58): warning C4244:         with
-D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(20,58): warning C4244:         [
-D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(20,58): warning C4244:             T=float
-D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(20,58): warning C4244:         ]
-D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(20,51): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
-D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(20,51): warning C4244:         with
-D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(20,51): warning C4244:         [
-D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(20,51): warning C4244:             T=float
-D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(20,51): warning C4244:         ]
-D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(21,34): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(21,31): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(21,58): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(21,58): warning C4244:         with
+D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(21,58): warning C4244:         [
+D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(21,58): warning C4244:             T=float
+D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(21,58): warning C4244:         ]
+D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(21,51): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(21,51): warning C4244:         with
+D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(21,51): warning C4244:         [
+D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(21,51): warning C4244:             T=float
+D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(21,51): warning C4244:         ]
+D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(22,34): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+D:\НЛТУ\2 курс\OOAP\Lab1.2\Lab1.2\Lab1.2.cpp(22,31): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
   Lab1.2.vcxproj -> D:\НЛТУ\2 курс\OOAP\Lab1.2\x64\Debug\Lab1.2.exe

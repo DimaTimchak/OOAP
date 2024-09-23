@@ -3,8 +3,9 @@
 #include <iostream>
 #include <thread>
 #include <atomic>
+#include <limits> // для std::numeric_limits
 
-std::atomic<bool> running(true); 
+std::atomic<bool> running(true);
 int choice;
 
 class Rectangle {
@@ -48,6 +49,11 @@ public:
     }
 };
 
+void clearInputStream() {
+    std::cin.clear(); 
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+}
+
 void getUserInput(RectangleChain& chain) {
     while (true) {
         std::cout << "Menu:\n";
@@ -58,17 +64,51 @@ void getUserInput(RectangleChain& chain) {
 
         std::cin >> choice;
 
+        if (std::cin.fail()) {
+            std::cout << "Invalid input! Please enter a number.\n";
+            clearInputStream();
+            continue; 
+        }
+
         if (choice == 3) {
-            running = false; 
+            running = false;
             break;
         }
 
         if (choice == 1) {
             int x, y, width, height;
-            std::cout << "Enter top-left coordinates (x y): ";
-            std::cin >> x >> y;
-            std::cout << "Enter width and height: ";
-            std::cin >> width >> height;
+
+            bool validInput = false;
+            while (!validInput) {
+                std::cout << "Enter top-left coordinates (x y): ";
+                std::cin >> x >> y;
+
+                if (std::cin.fail()) {
+                    std::cout << "Invalid input! Please enter valid numbers for coordinates.\n";
+                    clearInputStream();
+                    continue; 
+                }
+
+                if (x < 0 || x > 800 || y < 0 || y > 600) {
+                    std::cout << "Invalid coordinates! X must be between 0 and 800, Y between 0 and 600.\n";
+                    continue;
+                }
+
+                std::cout << "Enter width and height: ";
+                std::cin >> width >> height;
+
+                if (std::cin.fail()) {
+                    std::cout << "Invalid input! Please enter valid numbers for width and height.\n";
+                    clearInputStream();
+                    continue; 
+                }
+
+                if (width <= 0 || height <= 0 || x + width > 800 || y + height > 600) {
+                    std::cout << "Invalid dimensions! Width and height must be positive and within window bounds.\n";
+                    continue;
+                }
+
+                validInput = true;              }
 
             Rectangle rect(x, y, width, height);
             chain.addRectangle(rect);
@@ -82,7 +122,7 @@ void renderWindow(sf::RenderWindow& window, RectangleChain& chain) {
         while (window.pollEvent(event)) {
             if (event.type == sf::Event::Closed) {
                 window.close();
-                running = false; 
+                running = false;
             }
         }
 
@@ -113,7 +153,7 @@ int main() {
 
     renderWindow(window, chain);
 
-    inputThread.join(); 
+    inputThread.join();
 
     return 0;
 }

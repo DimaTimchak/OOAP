@@ -71,10 +71,30 @@ public:
     }
 };
 
+void clearInputStream() {
+    std::cin.clear();
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+}
+
 int main() {
-    std::cout << "Select manufacturer country: (1) USA, (2) East Country\n";
     int choice;
-    std::cin >> choice;
+    
+    while (true) {
+        std::cout << "Select manufacturer country: (1) USA, (2) East Country\n";
+        std::cin >> choice;
+
+        if (std::cin.fail()) {
+            std::cout << "Invalid input! Please enter a number.\n";
+            clearInputStream(); 
+            continue; 
+        }
+
+        if (choice == 1 || choice == 2) {
+            break; 
+        }
+
+        std::cout << "Invalid choice! Please select 1 or 2.\n";
+    }
 
     PhoneFactory* factory = nullptr;
     if (choice == 1) {
