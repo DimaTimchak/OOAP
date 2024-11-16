@@ -1,0 +1,2 @@
+Sales log started
+Group: Food, Price: 12.6
