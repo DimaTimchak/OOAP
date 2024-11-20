@@ -1,0 +1,15 @@
+D:\НЛТУ\2 курс\OOAP\Модуль 2\Modul C#\Modul C#\bin\Debug\net8.0\Modul C#.exe
+D:\НЛТУ\2 курс\OOAP\Модуль 2\Modul C#\Modul C#\bin\Debug\net8.0\Modul C#.deps.json
+D:\НЛТУ\2 курс\OOAP\Модуль 2\Modul C#\Modul C#\bin\Debug\net8.0\Modul C#.runtimeconfig.json
+D:\НЛТУ\2 курс\OOAP\Модуль 2\Modul C#\Modul C#\bin\Debug\net8.0\Modul C#.dll
+D:\НЛТУ\2 курс\OOAP\Модуль 2\Modul C#\Modul C#\bin\Debug\net8.0\Modul C#.pdb
+D:\НЛТУ\2 курс\OOAP\Модуль 2\Modul C#\Modul C#\obj\Debug\net8.0\Modul C#.GeneratedMSBuildEditorConfig.editorconfig
+D:\НЛТУ\2 курс\OOAP\Модуль 2\Modul C#\Modul C#\obj\Debug\net8.0\Modul C#.AssemblyInfoInputs.cache
+D:\НЛТУ\2 курс\OOAP\Модуль 2\Modul C#\Modul C#\obj\Debug\net8.0\Modul C#.AssemblyInfo.cs
+D:\НЛТУ\2 курс\OOAP\Модуль 2\Modul C#\Modul C#\obj\Debug\net8.0\Modul C#.csproj.CoreCompileInputs.cache
+D:\НЛТУ\2 курс\OOAP\Модуль 2\Modul C#\Modul C#\obj\Debug\net8.0\Modul C#.sourcelink.json
+D:\НЛТУ\2 курс\OOAP\Модуль 2\Modul C#\Modul C#\obj\Debug\net8.0\Modul C#.dll
+D:\НЛТУ\2 курс\OOAP\Модуль 2\Modul C#\Modul C#\obj\Debug\net8.0\refint\Modul C#.dll
+D:\НЛТУ\2 курс\OOAP\Модуль 2\Modul C#\Modul C#\obj\Debug\net8.0\Modul C#.pdb
+D:\НЛТУ\2 курс\OOAP\Модуль 2\Modul C#\Modul C#\obj\Debug\net8.0\Modul C#.genruntimeconfig.cache
+D:\НЛТУ\2 курс\OOAP\Модуль 2\Modul C#\Modul C#\obj\Debug\net8.0\ref\Modul C#.dll
