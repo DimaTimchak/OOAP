@@ -1,2 +1,8 @@
 Sales log started
-Group: Food, Price: 12.6
+Group: Food, Price: 50.4
+Group: Medicine, Price: 77
+Group: Clothing, Price: 83.95
+Group: Food, Price: 64.05
+Group: Clothing, Price: 97.75
+Group: Food, Price: 89.25
+Group: Medicine, Price: 94.6

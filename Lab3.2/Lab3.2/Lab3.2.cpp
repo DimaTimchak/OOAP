@@ -98,7 +98,6 @@ bool isValidPrice(const std::string& str) {
     return true;
 }
 
-// Функція для перевірки введення на ціле число
 bool isValidInt(const std::string& str) {
     for (char const& c : str) {
         if (!isdigit(c)) return false;
