@@ -1,0 +1,7 @@
+﻿  Lab06.cpp
+D:\НЛТУ\2 курс\OOAP\Lab06\Lab06\Lab06.cpp(31,68): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+D:\НЛТУ\2 курс\OOAP\Lab06\Lab06\Lab06.cpp(31,68): warning C4267:         with
+D:\НЛТУ\2 курс\OOAP\Lab06\Lab06\Lab06.cpp(31,68): warning C4267:         [
+D:\НЛТУ\2 курс\OOAP\Lab06\Lab06\Lab06.cpp(31,68): warning C4267:             _Ty=int
+D:\НЛТУ\2 курс\OOAP\Lab06\Lab06\Lab06.cpp(31,68): warning C4267:         ]
+  Lab06.vcxproj -> D:\НЛТУ\2 курс\OOAP\Lab06\x64\Debug\Lab06.exe
