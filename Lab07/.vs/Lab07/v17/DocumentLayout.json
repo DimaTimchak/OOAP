@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u041D\u041B\u0422\u0423\\2 \u043A\u0443\u0440\u0441\\OOAP\\Lab07\\",
+  "WorkspaceRootPath": "D:\\NLTU\\2curse\\OOAP\\Lab07\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D81F8AB3-F6B2-47B1-A77F-8DF4BCAB3FCA}|Lab07\\Lab07.vcxproj|D:\\\u041D\u041B\u0422\u0423\\2 \u043A\u0443\u0440\u0441\\OOAP\\Lab07\\Lab07\\Lab07.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D81F8AB3-F6B2-47B1-A77F-8DF4BCAB3FCA}|Lab07\\Lab07.vcxproj|D:\\NLTU\\2curse\\OOAP\\Lab07\\Lab07\\Lab07.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D81F8AB3-F6B2-47B1-A77F-8DF4BCAB3FCA}|Lab07\\Lab07.vcxproj|solutionrelative:Lab07\\Lab07.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Lab07.cpp",
-              "DocumentMoniker": "D:\\\u041D\u041B\u0422\u0423\\2 \u043A\u0443\u0440\u0441\\OOAP\\Lab07\\Lab07\\Lab07.cpp",
+              "DocumentMoniker": "D:\\NLTU\\2curse\\OOAP\\Lab07\\Lab07\\Lab07.cpp",
               "RelativeDocumentMoniker": "Lab07\\Lab07.cpp",
-              "ToolTip": "D:\\\u041D\u041B\u0422\u0423\\2 \u043A\u0443\u0440\u0441\\OOAP\\Lab07\\Lab07\\Lab07.cpp",
+              "ToolTip": "D:\\NLTU\\2curse\\OOAP\\Lab07\\Lab07\\Lab07.cpp",
               "RelativeToolTip": "Lab07\\Lab07.cpp",
-              "ViewState": "AQIAAJAAAAAAAAAAAAAAAFYAAAAAAAAA",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAFMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-08T19:15:45.309Z",
               "EditorCaption": ""
