@@ -1,0 +1,33 @@
+0:00:04 Tab2 PageLoad
+0:00:04 Tab3 PageLoad
+0:00:04 Tab1 PageLoad
+0:00:04 Tab1 PageLoad
+0:00:04 Tab3 PageLoad
+0:00:04 Tab3 PageLoad
+0:00:04 Tab3 PageLoad
+0:00:04 Tab3 PageLoad
+0:00:04 Tab3 PageLoad
+0:00:04 Tab3 PageLoad
+0:00:04 Tab1 PageLoad
+0:00:04 Tab2 PageLoad
+0:00:04 Tab1 StartNav85 #renderer-user #auto_subframe
+0:00:04 Tab1 StartNav86 #renderer-user #auto_subframe
+0:00:04 Tab1 FinishNav85
+0:00:04 Tab1 FinishNav86
+0:00:04 Tab1 PageLoad
+0:00:04 Tab3 StartNav87 #renderer-user #auto_subframe
+0:00:04 Tab3 StartNav88 #renderer-user #auto_subframe
+0:00:04 Tab3 FinishNav87
+0:00:04 Tab3 FinishNav88
+0:00:04 Tab3 PageLoad
+0:00:04 Tab1 PageLoad
+0:00:04 Tab3 PageLoad
+0:00:04 Tab2 StartNav89 #renderer-user #auto_subframe
+0:00:04 Tab2 StartNav90 #renderer-user #auto_subframe
+0:00:04 Tab2 FinishNav89
+0:00:04 Tab2 FinishNav90
+0:00:04 Tab2 PageLoad
+0:00:04 Tab2 PageLoad
+0:00:12 Widget Closed: StatusBubble
+0:00:12 Widget Closed: StatusBubble
+0:00:37 Tab1 BeforeUnload proceed:true
