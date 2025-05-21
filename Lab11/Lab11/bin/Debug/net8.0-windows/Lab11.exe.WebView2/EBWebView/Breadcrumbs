@@ -1,33 +1,30 @@
-0:00:04 Tab2 PageLoad
-0:00:04 Tab3 PageLoad
-0:00:04 Tab1 PageLoad
-0:00:04 Tab1 PageLoad
-0:00:04 Tab3 PageLoad
-0:00:04 Tab3 PageLoad
-0:00:04 Tab3 PageLoad
-0:00:04 Tab3 PageLoad
-0:00:04 Tab3 PageLoad
-0:00:04 Tab3 PageLoad
-0:00:04 Tab1 PageLoad
-0:00:04 Tab2 PageLoad
-0:00:04 Tab1 StartNav85 #renderer-user #auto_subframe
-0:00:04 Tab1 StartNav86 #renderer-user #auto_subframe
-0:00:04 Tab1 FinishNav85
-0:00:04 Tab1 FinishNav86
-0:00:04 Tab1 PageLoad
-0:00:04 Tab3 StartNav87 #renderer-user #auto_subframe
-0:00:04 Tab3 StartNav88 #renderer-user #auto_subframe
-0:00:04 Tab3 FinishNav87
-0:00:04 Tab3 FinishNav88
-0:00:04 Tab3 PageLoad
-0:00:04 Tab1 PageLoad
-0:00:04 Tab3 PageLoad
-0:00:04 Tab2 StartNav89 #renderer-user #auto_subframe
-0:00:04 Tab2 StartNav90 #renderer-user #auto_subframe
-0:00:04 Tab2 FinishNav89
-0:00:04 Tab2 FinishNav90
-0:00:04 Tab2 PageLoad
-0:00:04 Tab2 PageLoad
-0:00:12 Widget Closed: StatusBubble
-0:00:12 Widget Closed: StatusBubble
-0:00:37 Tab1 BeforeUnload proceed:true
+0:11:39 Browser2 Close Tab2 at 0
+0:11:39 Tab2 FinishNav208
+0:11:39 Tab2 WebContentsDestroyed
+0:11:39 Microsoft.Shutdown.OnWindowClosing
+0:11:39 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+0:11:39 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+0:11:39 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+0:11:39 Widget Closed: BrowserFrame
+0:11:39 Widget Closed: 
+0:11:39 Microsoft.Browser_Removed
+0:11:39 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
+0:11:39 Browser3 Close Tab3 at 0
+0:11:39 Tab3 WebContentsDestroyed
+0:11:39 Microsoft.Shutdown.OnWindowClosing
+0:11:39 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+0:11:39 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+0:11:39 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+0:11:39 Widget Closed: BrowserFrame
+0:11:39 Widget Closed: 
+0:11:39 Microsoft.Browser_Removed
+0:11:39 Widget Closed: 
+0:11:39 Microsoft.Last_Browser_Removed
+0:11:39 Microsoft.Shutdown.ShutdownIfNoBrowsers
+0:11:39 Microsoft.Shutdown.SetTryingToQuit_Quitting
+0:11:39 Microsoft.Shutdown.NotifyAppTerminating
+0:11:39 Microsoft.Shutdown.OnAppExiting
+0:11:39 Microsoft.Shutdown.HandleAppExitingForPlatform_Aura
+0:11:39 Microsoft.Shutdown.HandleAppExitingForPlatform_Aura.NotificationUIManager_StartShutdown
+0:11:39 Microsoft.Shutdown.HandleAppExitingForPlatform_Aura.CloseAllSecondaryWidgets
+0:11:46 Shutdown
